@@ -44,6 +44,11 @@
   height: 330px;
   border: 2px solid cyan;
   margin-top: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
 }
 
 .tokenCard{

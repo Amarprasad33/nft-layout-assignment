@@ -1,29 +1,33 @@
 
 import styles from '@/styles/NFTCard.module.css'
 import Image from 'next/image'
-import Monkey from '../public/monkey.jpeg'
+import NFT from '../public/NFT.jpg'
+
 
 export default function NFTCard(){
     return (
-        <div className={styles.userLayout}>
+        <div className={styles.nftLayout}>
             <div className={styles.tokenUp}>
-            <Image className={styles.tokenImage} src={Monkey} width={50} height={50} />
+            <Image className={styles.nftImage} src={NFT} width={190} height={200} />
 
-            <div className={styles.tokenText}>
-                <p>Best Flip</p>
-                <p>Minty</p>
+            <div className={styles.nftText}>
+                <p>Azuki #9839</p>
             </div>
             </div>
 
-            <div className={styles.tokenValues} >
-            <div className={styles.tokenLine}>
-                <p>dingling.eth</p>
-                <p>1.882</p>
-            </div>
-            <div className={styles.tokenLine}>
-                <p>2 months ago</p>
-                <p>+250XP</p>
-            </div>
+            <div className={styles.nftValues} >
+                <div className={styles.nftLine}>
+                    <p>Bought</p>
+                    <p>02.82</p>
+                </div>
+                <div className={styles.nftLine}>
+                    <p>Floor</p>
+                    <div className={styles.nftLineM}>
+                        <p className={styles.item}>12.74</p>
+                        <p className={styles.item}>I</p>
+                        <p className={styles.item}>+21.6%</p>
+                    </div>
+                </div>
             </div>
         </div>
     )

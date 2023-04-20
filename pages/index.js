@@ -35,6 +35,10 @@ export default function Home() {
 
             <div className={styles.users}>
                 <NFTCard />
+                <NFTCard />
+                <NFTCard />
+                <NFTCard />
+                <NFTCard />
             </div>
           </div>
           
