@@ -8,7 +8,10 @@ export default function NFTCard(){
     return (
         <div className={styles.nftLayout}>
             <div className={styles.tokenUp}>
-            <Image className={styles.nftImage} src={NFT} width={190} height={200} />
+            <div className={styles.topContent}>
+                <Image className={styles.nftImage} src={NFT} width={190} height={200} />
+                <div className={styles.imageText}>3 Months</div>
+            </div>
 
             <div className={styles.nftText}>
                 <p>Azuki #9839</p>

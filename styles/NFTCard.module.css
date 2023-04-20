@@ -12,6 +12,7 @@
     background: #111111;
     border-radius: 8px;
     border: 1px solid slateblue;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .nftImage{
@@ -48,6 +49,19 @@
     margin-left: 5px;
 }
 
+.topContent{
+    position: relative;
+
+}
+
+.imageText{
+    position: absolute;
+    right: 7px;
+    top: 171px;
+    background: radial-gradient(circle, rgba(198,198,198,0.5) 20%, rgba(198,198,198,0.5579481792717087) 74%, rgba(211,212,213,0.499124649859944) 74%);
+    padding: 3px;
+    border-radius: 10px;
+}
 
 
 
