@@ -1,5 +1,8 @@
 import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
+import TokenCard from './TokenCard'
+import NFTCard from './NFTCard'
+
 
 
 export default function Home() {
@@ -19,31 +22,19 @@ export default function Home() {
           <div className={styles.show}>
             {/* Upper body on right side I call it tokens ---> It might not be :) */}
             <div className={styles.token}>
-              <div className={styles.tokenCard}>
-                Basic Info about the token please align yourself to make it easy
-              </div>
-
-              <div className={styles.tokenCard}>
-                Basic Info about the token please align yourself to make it easy
-              </div>
-
-              <div className={styles.tokenCard}>
-                Basic Info about the token please align yourself to make it easy
-              </div>
-
-              <div className={styles.tokenCard}>
-                Basic Info about the token please align yourself to make it easy
-              </div>
-
-              <div className={styles.tokenCard}>
-                Basic Info about the token please align yourself to make it easy
-              </div>
+             
+              <TokenCard />
+              <TokenCard />
+              <TokenCard />
+              <TokenCard />
+              <TokenCard /> 
+           
             </div>
 
              {/* Lower body on right side I call it Users ---> It might not be :) */}
 
             <div className={styles.users}>
-                Users
+                <NFTCard />
             </div>
           </div>
           
