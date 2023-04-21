@@ -51,7 +51,7 @@
     position: absolute;
     right: 7px;
     top: 171px;
-    background: radial-gradient(circle, rgba(198,198,198,0.5) 20%, rgba(198,198,198,0.5579481792717087) 74%, rgba(211,212,213,0.499124649859944) 74%);
+    background: radial-gradient(circle, rgba(198,198,198,0.5) 20%, rgba(198,198,198,0.3) 74%, rgba(211,212,213,0.3) 74%);
     padding: 3px;
     border-radius: 10px;
 }

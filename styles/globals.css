@@ -39,8 +39,7 @@
   --card-rgb: 180, 185, 188;
   --card-border-rgb: 131, 134, 135; */
   /* background: rgb(238,174,202); */
-  background-image: linear-gradient(rgba(57,57,57,0.7), rgba(57,57,57,0.5));
-  /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+  background-image: linear-gradient(rgba(28, 28, 28, 0.7), rgba(28, 28, 28, 0.7));
 }
 
 @media (prefers-color-scheme: dark) {
