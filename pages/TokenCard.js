@@ -5,8 +5,14 @@ import Monkey from '../public/monkey.jpeg'
 import Eth from '../public/icons/ethereum.png';
 
 export default function TokenCard(){
+    const random_colors = [
+        styles.tokenCard1,
+        styles.tokenCard2,
+        styles.tokenCard3
+    ]
+    const ran = Math.floor(Math.random()*3);
     return (
-        <div className={styles.tokenCard}>
+        <div className={random_colors[ran]}>
             <div className={styles.tokenUp}>
             <Image className={styles.tokenImage} src={Monkey} width={50} height={50} />
 

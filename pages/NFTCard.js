@@ -1,15 +1,15 @@
 
 import styles from '@/styles/NFTCard.module.css'
 import Image from 'next/image'
-import NFT from '../public/NFT.jpg'
+// import NFT from '../public/NFT.jpg'
 import Eth from '../public/icons/ethereum.png';
 
-export default function NFTCard(){
+export default function NFTCard({ image }){
     return (
         <div className={styles.nftLayout}>
             <div className={styles.tokenUp}>
             <div className={styles.topContent}>
-                <Image className={styles.nftImage} src={NFT} width={190} height={200} />
+                <Image className={styles.nftImage} src={image} width={190} height={200} />
                 <div className={styles.imageText}>3 Months</div>
             </div>
 

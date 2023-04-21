@@ -3,7 +3,11 @@ import styles from '@/styles/Home.module.css'
 import TokenCard from './TokenCard'
 import NFTCard from './NFTCard'
 import User from './User'
-
+import Nft from '../public/characters/NFT.jpg';
+import Dragon from '../public/characters/dragon.jpg';
+import Ninja from '../public/characters/ninja.jpg';
+import Ramdan from '../public/characters/ramdan.jpg';
+import Sprit from '../public/characters/sprit.jpg';
 
 
 export default function Home() {
@@ -36,11 +40,11 @@ export default function Home() {
              {/* Lower body on right side I call it Users ---> It might not be :) */}
 
             <div className={styles.users}>
-                <NFTCard />
-                <NFTCard />
-                <NFTCard />
-                <NFTCard />
-                <NFTCard />
+                <NFTCard image={Nft}  />
+                <NFTCard image={Dragon}/>
+                <NFTCard image={Ninja}/>
+                <NFTCard image={Ramdan}/>
+                <NFTCard image={Sprit}/>
             </div>
           </div>
           
