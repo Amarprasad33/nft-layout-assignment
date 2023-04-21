@@ -2,6 +2,7 @@ import Head from 'next/head'
 import styles from '@/styles/Home.module.css'
 import TokenCard from './TokenCard'
 import NFTCard from './NFTCard'
+import User from './User'
 
 
 
@@ -15,7 +16,7 @@ export default function Home() {
       </Head>
       <section className={styles.layout}>
         <div className={styles.sidebar}>
-          1
+          <User />
         </div>
 
         <div className={styles.body}>

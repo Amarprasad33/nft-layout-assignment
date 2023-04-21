@@ -1,0 +1,259 @@
+
+/*      font-family: 'Sharp Grotesk; */
+.userLayout {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 16px 16px 24px;
+    gap: 28px;
+
+    position: relative;
+    width: 292px;
+    height: 660px;
+
+    background: #111111;
+    border-radius: 16px;
+}
+
+.profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+
+    width: 251.01px;
+    height: 136px;
+}
+
+.userImage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 4px;
+
+    width: 104.01px;
+    height: 136px;
+}
+
+
+
+.dp{
+    width: 84.01px;
+    height: 84px;
+    position: absolute;
+    left: 26.96px;
+    right: 6.05px;
+    top: 24.05px;
+    bottom: 37.95px;
+    background-image: url(../public/user.jpg);
+    border-radius: 1e+09px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.eclipseFill{
+    position: absolute;
+    width: 92px;
+    height: 92px;
+    left: 22.96px;
+    top:21.05px;
+
+    /* Activities/Sold */
+
+    background: #FFC148;
+    border-radius: 50px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.level{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    top: 119px;
+    padding: 4px;
+    height: 28px;
+    width: 60px;
+    border-radius: 44px;
+    background: radial-gradient( rgba(227, 169, 7, 0.3) 20%, rgba(227, 169, 7, 0.2) 10%);
+    color: rgb(255, 200, 3);
+}
+
+
+.profileText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 125px;
+    height: 54px;
+}
+
+.strongText{
+    font-weight: 500;
+    font-size: 19px;
+    line-weght: 32px;
+    color: #FFFFFF;
+}
+
+.weakText{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    color: #A2A2A2;
+}
+
+
+.twitterInfo{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+
+    width: 194px;
+    height: 36px;
+}
+
+.frame{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 8px;
+    margin-top: 2px;
+    width: 146px;
+    height: 32px;
+    background: #1A1A1A;
+    border-radius: 24px;
+}
+
+.frameGlobe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px ;
+    background: #1A1A1A;
+    border-radius: 24px;
+    
+}
+
+.bio{
+    width: 258px;
+    height: 72px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    color: #A2A2A2;
+}
+
+.communities{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 260px;
+    height: 80px;
+}
+
+.comText{
+    font-weight: 400;
+    font-size: 14px;
+    color: #A2A2A2;
+}
+
+.comIcons{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 260px;
+    height:56px;
+}
+
+.iconImage{
+    width: 48px;
+    height: 48px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+.stats{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 260px;
+    height: 120px;
+}
+
+.statsRow{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 260px;
+    height: 33px;
+}
+
+.statItem{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 7px ;
+    flex-wrap: wrap;
+    gap: 8px;
+    color: #A2A2A2;
+    border-radius: 40px;
+    border: 1px solid #1A1A1A;
+
+}
+
+.selectItem{
+    color: #FFC148;
+    border: 1px solid #FFC148;
+}
+
+.subscribe{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 37px;
+    gap: 8px;
+
+    width: 260px;
+    height: 44px;
+
+    border: 1px solid #A2A2A2;
+    border-radius: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
