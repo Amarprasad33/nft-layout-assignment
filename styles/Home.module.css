@@ -2,20 +2,25 @@
   width: 1366px;
   height: 100vh;
 
-  display: grid;
+  /* display: grid;
   grid:
     "sidebar body" 1fr
-    / 25% 86%;
-  gap: 8px;
+    / 25% 86%; */
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
 }
 
 .sidebar { 
+  margin-left: 20px;
   grid-area: sidebar;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
+  margin-top: 40px;
 }
 .body { 
+  margin-left: 30px;
   grid-area: body; 
   
 }
