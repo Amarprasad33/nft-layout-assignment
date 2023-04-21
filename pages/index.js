@@ -15,6 +15,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className={styles.layout}>
+        {/* User details on left side of page */}
         <div className={styles.sidebar}>
           <User />
         </div>
@@ -23,7 +24,7 @@ export default function Home() {
           <div className={styles.show}>
             {/* Upper body on right side I call it tokens ---> It might not be :) */}
             <div className={styles.token}>
-             
+              <p className={styles.heading}>Highlights</p>
               <TokenCard />
               <TokenCard />
               <TokenCard />

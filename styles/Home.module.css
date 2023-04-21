@@ -11,14 +11,12 @@
 
 .sidebar { 
   grid-area: sidebar;
-  border: 2px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .body { 
   grid-area: body; 
-  border: 2px solid green;
   
 }
 
@@ -32,7 +30,6 @@
   position: relative;
   width: 1070px;
   height: 225px;
-  border: 2px solid white;
   margin-top: 20px;
   display: flex;
   flex-direction: row;
@@ -45,7 +42,6 @@
   position: relative;
   width: 1070px;
   height: 330px;
-  border: 2px solid cyan;
   margin-top: 70px;
   display: flex;
   flex-direction: row;
@@ -59,7 +55,6 @@
   height: 160px;
   width: 190px;
   border-radius: 9%;
-  border: 1px solid rebeccapurple;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -99,4 +94,61 @@
   display: flex;
   justify-content: space-between;
   margin-bottom: 5px;
+}
+
+.weakText{
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #A2A2A2;
+}
+
+.timeText{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #A2A2A2;
+}
+
+.lightText{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FAFAFA;;
+}
+
+.lightText2{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FAFAFA;;
+}
+
+.lightColorText{
+  color: #4BDFFF;
+  margin-left: 6px;
+}
+
+.nftLineM{
+  display: flex;
+  flex-direction: row;
+}
+
+.ethSymbol{
+  margin-top: 2px;
+}
+
+.gains{
+  color: #19ED7B;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.heading{
+  color: #A2A2A2;
+  position: absolute;
+  top: 10px;
+  font-size: 17px;
+  line-height: 20px;
 }
