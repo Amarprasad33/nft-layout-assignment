@@ -13,6 +13,7 @@ export default function TokenCard(){
     const ran = Math.floor(Math.random()*3);
     return (
         <div className={random_colors[ran]}>
+            {/* Upper part of the card */}
             <div className={styles.tokenUp}>
             <Image className={styles.tokenImage} src={Monkey} width={50} height={50} />
 
@@ -22,6 +23,7 @@ export default function TokenCard(){
             </div>
             </div>
 
+            {/* Lower part of the card */}
             <div className={styles.tokenValues} >
             <div className={styles.tokenLine}>
                 <p className={styles.weakText}>dingling.eth</p>

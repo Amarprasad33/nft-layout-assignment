@@ -7,6 +7,7 @@ import Eth from '../public/icons/ethereum.png';
 export default function NFTCard({ image }){
     return (
         <div className={styles.nftLayout}>
+            {/* Upper body of NFT */}
             <div className={styles.tokenUp}>
             <div className={styles.topContent}>
                 <Image className={styles.nftImage} src={image} width={190} height={200} />
@@ -17,6 +18,7 @@ export default function NFTCard({ image }){
                 <p className={styles.lightText2}>Azuki #9839</p>
             </div>
             </div>
+            {/* Lower body of NFT */}
 
             <div className={styles.nftValues} >
                 <div className={styles.nftLine}>

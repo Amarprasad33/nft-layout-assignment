@@ -26,7 +26,7 @@ export default function Home() {
 
         <div className={styles.body}>
           <div className={styles.show}>
-            {/* Upper body on right side I call it tokens ---> It might not be :) */}
+            {/* Upper body on right side I call it tokens --->  */}
             <div className={styles.token}>
               <p className={styles.heading}>Highlights</p>
               <TokenCard />
@@ -37,7 +37,7 @@ export default function Home() {
            
             </div>
 
-             {/* Lower body on right side I call it Users ---> It might not be :) */}
+             {/* Lower body on right side I call it NFTs --->  */}
 
             <div className={styles.users}>
                 <NFTCard image={Nft}  />
